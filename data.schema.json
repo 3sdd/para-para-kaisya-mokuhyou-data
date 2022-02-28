@@ -1,0 +1,21 @@
+{
+    "type":"object",
+    "properties": {
+        "data":{
+            "type":"array",
+            "items": {
+                "type":"object",
+                "properties": {
+                    "companyName":{
+                        "type":"string"
+                    },
+                    "mission":{
+                        "type":"string"
+                    }
+                },
+                "required": ["companyName","mission"]
+            }
+        }
+    },
+    "required": ["data"]
+}
